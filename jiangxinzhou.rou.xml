@@ -1,0 +1,18 @@
+﻿<routes>
+	<vType id="vtypeauto" accel="2.5" decel="10" sigma="0.5" length="4"
+		   minGap="0" maxSpeed="36" color="1,0,0" probability="1"
+		   carFollowModel="CC" tauEngine="0.5" omegaN="0.2" xi="1" c1="0.5"
+		   lanesCount="4" ccAccel="8" ploegKp="0.2" ploegKd="0.7"
+		   ploegH="0.5" />
+	<vType id="passenger" accel="1.5" decel="4.5" sigma="0.5" length="4"
+		   minGap="0" maxSpeed="36.11" color="0.16,0.33,0.42" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" departSpeed="max"
+		   carFollowModel="IDM" />
+	<vType id="passenger2" accel="1.5" decel="4.5" sigma="0.5" length="4"
+		   minGap="0" maxSpeed="20" color="0.16,0.33,0.42" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" departSpeed="max"
+	       carFollowModel="IDM" />
+	<route id="platoon_route_0" edges="round0 round1 round2 round3 round4 round5 round6 round7 round8 round9 round10 round11 round12 round0 round1 round2 round3"/>
+	<route id="platoon_route_1" edges="round1 round2"/>
+
+</routes>
